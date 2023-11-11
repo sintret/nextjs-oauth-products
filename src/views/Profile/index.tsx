@@ -1,5 +1,5 @@
 import { useSession } from "next-auth/react";
-import styles from "./profile.module.scss";
+import styles from "./Profile.module.scss";
 
 const ProfileView = () => {
   const { data }: any = useSession();
