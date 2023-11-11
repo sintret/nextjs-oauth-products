@@ -11,7 +11,7 @@ export default ProductPage;
 //this default function is for getServerSideProps
 export async function getServerSideProps() {
   //fetch data
-  const res = await fetch("http://localhost:3000/api/product");
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/product`);
   const response = await res.json();
   console.log(response);
 
