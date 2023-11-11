@@ -1,0 +1,15 @@
+.error {
+  background-color: azure;
+  font-weight: bold;
+  color: #6c63ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-size: 2rem;
+  &___image {
+    margin-bottom: 50px;
+    width: 50%;
+  }
+}

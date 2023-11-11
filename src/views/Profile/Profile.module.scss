@@ -1,0 +1,15 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  &__title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: blueviolet;
+    margin-bottom: 10px;
+  }
+}
